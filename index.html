@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Tech Giants</title>
+  <meta name="title" content="TechGiants">
+  <meta name="description" content="This is a business agency website made by Edmond">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logoGiant.jpg" width="90" height="60" alt="Logo Giant" class="logo-light">
+
+        <img src="./assets/images/logoGiant2.png" width="90" height="60" alt="LOGO Giant" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Logo GIant">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">giantstech89@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+92 332 3276087</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Free Trial</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-color: #4169e1;">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+
+            <p class="hero-text">
+              We're a creative company that specialize in providing top-notch services to clients all over the world.
+            </p>
+
+            <div class="btn-wrapper">
+              <a href="#" class="btn btn-primary">Explore Now</a>
+              <a href="#" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Graphic Designing</h3>
+
+                <p class="card-text">
+                  Inspiring visuals, crafted for your brand's success.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Web developments</h3>
+
+                <p class="card-text">
+                  Custom-built websites, creating lasting impressions.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Digital Marketing</h3>
+
+                <p class="card-text">
+                  Data-driven strategies, maximizing your ROI.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Digital Research</h3>
+
+                <p class="card-text">
+                  Empowering informed decisions with valuable insights.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We bring solutions to make life easier for our clients.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Professional Design</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Elevating your brand with expertly crafted visuals.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Top-Notch Support</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Delivering excellence through stunning and innovative designs.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Exclusive Assets</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Unlocking premium resources for your business's success.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              We make your spending stress-free for you to have the perfect control.
+            </h2>
+
+            <p class="section-text">
+              Here are the solutions that are provided by TechGiants
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Website development
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Graphic Designing
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Digital Marketing
+                  </span>
+
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Digital Research
+                  </span>
+
+                </div>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-color: #4169e1;">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">751</span>
+
+                <spna class="span">Completed Projects</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">347</span>
+
+                <spna class="span">Happy Customers</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">60</span>
+
+                <spna class="span">Expert Employees</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">15</span>
+
+                <spna class="span">Awards Won</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Case Studies</p>
+
+          <h2 class="h2 section-title">
+            Check out some of our awesome projects with creative ideas and great design.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Website Development</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Creating and designing websites for businesses and individuals, incorporating user-friendly interfaces, responsive design, and engaging visuals.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Coding</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mobile App Development </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Designing and developing mobile applications for various platforms (iOS, Android, etc.) that cater to specific client needs or target a particular audience.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Coding</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Digital Marketing Campaigns</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Planning and executing digital marketing strategies, including social media campaigns, content marketing, email marketing, and SEO to increase a client's online presence and reach.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">24 July 2023</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Meeting</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Join our community by using our services and grow your business.
+          </h2>
+
+          <a href="#" class="btn btn-primary" style="background-color: #4169e1;">Try it For Free</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logoGiant2.png" width="74" height="24" alt="Logo light">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2023 Tech Giants. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Moonshine St. 14/05 Light City, London, United Kingdom
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">giantstech89@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">+92 332 3276087</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
